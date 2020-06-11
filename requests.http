@@ -1,0 +1,12 @@
+GET http://127.0.0.1:5000/api/users/6
+
+###
+GET http://127.0.0.1:5000/api/users
+
+###
+POST http://127.0.0.1:5000/api/users
+Content-Type: application/json
+
+{
+  "name": "Rafkat"
+}
