@@ -1,7 +1,7 @@
 import sqlite3
 
-from flask import jsonify, request
-from flask_restx import Namespace, Resource, reqparse, inputs
+from flask import request
+from flask_restx import Namespace, Resource
 
 api = Namespace('users', description='User resources')
 
